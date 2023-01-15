@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #E76F51   ;
-  --secondary-color: #2A9d8f ;
-  --accent1-color: #264653;
-  --accent2-color: white;
+  --primary-color: #264653 ;
+  --secondary-color: #6FD0D9;
+  --accent1-color: #ECCE83;
+  --accent2-color: ;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Signika Negative";
@@ -19,12 +19,12 @@ Fonts are separated by a & */
   --headline-color-on-white: #264653;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #264653; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #E76F51  ;
-  --nav-link-color: #0b0b0b;
-  --nav-background-color: #2A9d8f;
+  --paragraph-color-on-color: #264653; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #6FD0D9 ;
+  --nav-link-color: white;
+  --nav-background-color: #264653;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #ECCE83;
 }
 
 
