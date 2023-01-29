@@ -31,19 +31,19 @@ nav a:hover {
     background-color: #6FD0D9;
 }
 .book {
-    background-color: #264653; 
+    background-color: #ffffff; 
 }
 .book:hover {
     background-color:#ECCE83;
 }
 #background {
-    background-color: black;
+    background-color: #6FD0D9;
 }
 .msg {
-    background-color: #264653 
+    background-color: #ffffff
 }
 footer {
-    background-color:#6FD0D9;
+    background-color:#ECCE83;
 }
 .icon {
     width: 80px;
