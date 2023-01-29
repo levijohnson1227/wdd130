@@ -31,11 +31,13 @@ nav a:hover {
     color: #ffffff;
 }
 .book {
-    background-color: #ffffff;
+    background-color: #6FD0D9;
     text-decoration: none;
+    color: black;
 }
 .book:hover {
     background-color:#ECCE83;
+    color: #264653
 }
 #background {
     background-color: #6FD0D9;
