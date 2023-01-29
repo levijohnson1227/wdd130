@@ -1,4 +1,4 @@
-#content {
+div content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -21,25 +21,25 @@ body {
     background-color: #ffffff; 
 }
 header {
-    background-color:rgba(21, 44, 5, 0.7);
+    background-color:#ECCE83;
 }
 nav a:hover {
-    background-color: rgb(240, 185, 185);
+    background-color: #6FD0D9;
 }
 .book {
-    background-color: #9c3232; 
+    background-color: #264653; 
 }
 .book:hover {
-    background-color:rgba(20,30,13, .7);
+    background-color:#ECCE83;
 }
 #background {
     background-color: black;
 }
 .msg {
-    background-color: #340e0e; 
+    background-color: #264653 
 }
 footer {
-    background-color:rgba(20,30,13, .7);
+    background-color:#6FD0D9;
 }
 .icon {
     width: 80px;
