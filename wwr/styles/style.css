@@ -17,3 +17,27 @@ main section {
 #background {
     height: 725px;
 }
+body {
+    background-color: #ffffff; 
+}
+header {
+    background-color:rgba(21, 44, 5, 0.7);
+}
+nav a:hover {
+    background-color: rgb(240, 185, 185);
+}
+.book {
+    background-color: #fcfbfb; 
+}
+.book:hover {
+    background-color:rgba(20,30,13, .7);
+}
+#background {
+    background-color: black;
+}
+.msg {
+    background-color: #fcfbfb; 
+}
+footer {
+    background-color:rgba(20,30,13, .7);
+}
