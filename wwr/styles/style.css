@@ -1,7 +1,19 @@
-div, a {
-    color: red;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a {
     text-align: center;
 }
-h2 {
-    color: red;
+hero-msg h1, hero-msg h4 {
+    text-align: center;
+}
+button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
 }
