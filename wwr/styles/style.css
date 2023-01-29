@@ -40,7 +40,8 @@ nav a:hover {
     background-color: #6FD0D9;
 }
 .msg {
-    background-color: #ffffff
+    background-color: #264653;
+    color: #ffffff;
 }
 footer a {
     background-color:#ECCE83;
