@@ -4,7 +4,7 @@ div content {
 }
 nav a {
     text-align: center;
-    color: #d9c2a3;
+    color: #000000;
     text-decoration: none;
 }
 h1, h4 {
@@ -27,7 +27,7 @@ header {
 }
 nav a:hover {
     background-color: #6FD0D9;
-    color: #d9c2a3;
+    color: #ffffff;
 }
 .book {
     background-color: #ffffff;
@@ -43,8 +43,10 @@ nav a:hover {
     background-color: #264653;
     color: #ffffff;
 }
+footer {
+    background-color: #d9c2a3;
+}
 footer a {
-    background-color:#ECCE83;
     text-decoration: none;
 }
 footer p {
