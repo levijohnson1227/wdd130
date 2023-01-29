@@ -51,9 +51,11 @@ footer a {
 }
 footer p {
     font-size: 1.2em;
+    color: #264653;
 }
 footer p a:hover {
     text-decoration: underline;
+    color: #6FD0D9;
 } 
 .icon {
     width: 80px;
