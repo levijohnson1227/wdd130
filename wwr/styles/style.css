@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Signika+Negative&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,7 +9,7 @@ nav a {
     color: #000000;
     text-decoration: none;
 }
-hero-msg {
+#hero-msg {
     text-align: center;
 }
 button-box {
@@ -20,10 +22,12 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #ffffff; 
+    background-color: #ffffff;
+    font-family: 'Rubik', 'Helvetica', sans-serif;
 }
 header {
     background-color:#ECCE83;
+    font-family: 'Signika Negative';
 }
 nav a:hover {
     background-color: #6FD0D9;
@@ -44,9 +48,11 @@ nav a:hover {
 .msg {
     background-color: #264653;
     color: #ffffff;
+    font-family: 'Rubik', 'Helvetica', sans-serif;
 }
 footer {
     background-color: #d9c2a3;
+    font-family: 'Rubik', 'Helvetica', sans-serif;
 }
 footer a {
     text-decoration: none;
