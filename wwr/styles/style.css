@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Signika+Negative&display=swap');
 
+.home-title {
+    font-family: 'Signika Negative';
+    font-size: 2em;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -37,6 +41,7 @@ nav a:hover {
     background-color: #6FD0D9;
     text-decoration: none;
     color: black;
+    font-size: 18px;
 }
 .book:hover {
     background-color:#ECCE83;
@@ -49,6 +54,8 @@ nav a:hover {
     background-color: #264653;
     color: #ffffff;
     font-family: 'Rubik', 'Helvetica', sans-serif;
+    font-size: 8em;
+    line-height: 1.5em;
 }
 footer {
     background-color: #d9c2a3;
