@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Signika+Negative&display=swap');
 
 .home-title {
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative',Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -35,7 +35,7 @@ body {
 }
 header {
     background-color:#ECCE83;
-    font-family: 'Signika Negative';
+    font-family: 'Signika Negative',Arial, sans-serif;
 }
 main section img {
     box-sizing: border-box;
@@ -62,6 +62,7 @@ h2 {
 }
 #background {
     background-color: #6FD0D9;
+    padding: 35px;
 }
 .msg {
     background-color: #264653;
