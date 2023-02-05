@@ -37,6 +37,9 @@ header {
     background-color:#ECCE83;
     font-family: 'Signika Negative';
 }
+main section img {
+    box-sizing: border-box;
+}
 nav a:hover {
     background-color: #6FD0D9;
     color: #ffffff;
