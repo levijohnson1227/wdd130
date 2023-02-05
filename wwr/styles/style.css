@@ -3,6 +3,7 @@
 .home-title {
     font-family: 'Signika Negative';
     font-size: 2em;
+    margin-top: 10px;
 }
 #content {
     max-width: 1600px;
@@ -46,6 +47,8 @@ nav a:hover {
     color: black;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color:#ECCE83;
@@ -71,10 +74,15 @@ h2 {
     line-height: 1.5em;
     padding-bottom: 15px;
 }
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    border: 10px solid #264653;
+}
 footer {
     background-color: #d9c2a3;
     font-family: 'Rubik', 'Helvetica', sans-serif;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-decoration: none;
