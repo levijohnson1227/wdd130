@@ -47,6 +47,7 @@
   background-color: green; 
   position: relative;
   left: 50px;
+  top: 50px;
 
 } 
 .yellow2 {
@@ -55,6 +56,7 @@
   background-color: gold; 
   position: relative;
   left: 100px;
+  top: 100px;
 } 
 .blue2 {
   width: 100px; 
@@ -62,6 +64,7 @@
   background-color: blue;
   position: relative;
   left: 150px; 
+  top: 150px;
 } 
 /* Activity 3 styles */ 
 .content3 {
