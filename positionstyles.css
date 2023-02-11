@@ -46,21 +46,22 @@
   height: 100px; 
   background-color: green; 
   position: relative;
-  right: 50px;
+  left: 50px;
+
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
   position: relative;
-  right: 100px;
+  left: 100px;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue;
   position: relative;
-  right: 150px; 
+  left: 150px; 
 } 
 /* Activity 3 styles */ 
 .content3 {
