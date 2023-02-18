@@ -4,6 +4,8 @@
     font-family: 'Signika Negative',Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    color: #ffffff;
+
 }
 .home-grid {
     display: grid;
