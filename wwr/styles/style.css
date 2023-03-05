@@ -259,6 +259,58 @@ footer .social img {
     padding-bottom: 15px;
     grid-column: 1/9;
 }
+
+.grandsix-image {
+    width: 200px;
+    height: 200px;
+    grid-column: 9/13;
+    grid-row: 1/3;
+}
+.salmon-image {
+    width: 200px;
+    height: 200px;
+    grid-column: 9/13;
+    grid-row: 1/3;
+}
+.desolation-image{   
+    width: 200px;
+    height: 200px;
+    grid-column: 9/13;
+    grid-row: 1/3;
+}
+.desolation-card p, .salmon-card p, .grandsix-card p, .grandthree-card p {
+    font-family: 'Rubik', 'Helvetica', sans-serif;
+    font-size: .9em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    grid-column: 1/9;
+}
+.desolation-card, .salmon-card, .grandsix-card, .grandthree-card {
+    border: 10px solid #264653;
+    box-shadow: 5px 5px 10px #6f7364;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.desolation-card h2, .salmon-card h2, .grandsix-card h2, .grandthree-card h2 {
+    font-family: 'Signika Negative',Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    grid-column: 1/4;
+    
+}
+.cost {
+    font-family: 'Signika Negative',Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    float: left;
+}
+.dates {
+    font-family: 'Signika Negative',Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    float: left;
+}
+
 .desolation-card, .salmon-card, .grandsix-card, .grandthree-card {
     border: 10px solid #264653;
     box-shadow: 5px 5px 10px #6f7364;
