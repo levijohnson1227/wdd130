@@ -230,9 +230,21 @@ footer .social img {
 
 .dates {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 #grandthree-image {
     grid-column: 7/9;
-    grid-row: 2/3;
+    grid-row: 2/4;
+}
+#grandsix-image {
+    grid-column: 7/9;
+    grid-row: 5/7;
+}
+#salmon-image {
+    grid-column: 7/9;
+    grid-row: 8/10;
+}
+#desolation-image{   
+    grid-column: 7/9;
+    grid-row: 11/13;
 }
