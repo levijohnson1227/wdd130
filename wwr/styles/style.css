@@ -232,19 +232,19 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-#grandthree-image {
+.grandthree-image {
     grid-column: 7/9;
     grid-row: 2/4;
 }
-#grandsix-image {
+.grandsix-image {
     grid-column: 7/9;
     grid-row: 5/7;
 }
-#salmon-image {
+.salmon-image {
     grid-column: 7/9;
     grid-row: 8/10;
 }
-#desolation-image{   
+.desolation-image{   
     grid-column: 7/9;
     grid-row: 11/13;
 }
