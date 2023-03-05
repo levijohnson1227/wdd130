@@ -233,20 +233,24 @@ footer .social img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .grandthree-image {
-    grid-column: 7/9;
-    grid-row: 2/4;
+    width: 250px;
+    height: 250px;
+    float: right;
 }
 .grandsix-image {
-    grid-column: 7/9;
-    grid-row: 5/7;
+    width: 250px;
+    height: 250px;
+    float: right;
 }
 .salmon-image {
-    grid-column: 7/9;
-    grid-row: 8/10;
+    width: 250px;
+    height: 250px;
+    float: right;
 }
 .desolation-image{   
-    grid-column: 7/9;
-    grid-row: 11/13;
+    width: 250px;
+    height: 250px;
+    float: right;
 }
 .desolation-card p, .salmon-card p, .grandsix-card p, .grandthree-card p {
     font-family: 'Rubik', 'Helvetica', sans-serif;
