@@ -232,8 +232,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.loaction-image {
-    width: 100%;
-    border: 10px solid #264653;
-    box-shadow: 5px 5px 10px #6f7364;
+#grandthree-image {
+    grid-column: 7/9;
+    grid-row: 2/3;
 }
