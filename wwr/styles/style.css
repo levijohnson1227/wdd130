@@ -254,3 +254,7 @@ footer .social img {
     line-height: 1.5em;
     padding-bottom: 15px;
 }
+.desolation-card, .salmon-card, .grandsix-card, .grandthree-card {
+    border: 10px solid #264653;
+    box-shadow: 5px 5px 10px #6f7364;
+}
