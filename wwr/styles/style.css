@@ -248,3 +248,9 @@ footer .social img {
     grid-column: 7/9;
     grid-row: 11/13;
 }
+.desolation-card p, .salmon-card p, .grandsix-card p, .grandthree-card p {
+    font-family: 'Rubik', 'Helvetica', sans-serif;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
