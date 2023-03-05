@@ -228,28 +228,24 @@ footer .social img {
 
 /* -- ------------------------Page Two------------------------------ */
 
-.dates {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
 .grandthree-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 .grandsix-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 .salmon-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 .desolation-image{   
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 .desolation-card p, .salmon-card p, .grandsix-card p, .grandthree-card p {
