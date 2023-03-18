@@ -26,10 +26,10 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 50px;
-    background-color: #2e1d0b;
+    background-color: #0b1101;
 }
 .picture-me {
-    background-color: #0b1101;
+    background-color: #2e1d0b;
     margin-top: 50px;
     padding: 15px;
     box-shadow: 5px 5px 10px white;
@@ -41,7 +41,8 @@ nav a:hover {
 .msg {
     grid-column: 6/10;
     margin-top: 50px;
-    background-color: #a77533;
+    background-color: #2e1d0b;
+    color: #ffffff;
     box-shadow: 5px 5px 10px white;
     width: 500px
 }
