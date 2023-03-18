@@ -6,14 +6,13 @@ header {
     font-family: 'Nunito', sans-serif;
     padding: 5px 10px;
     display: flex;
-    align-items: center;
     font-size: 1.4em;
     
 }
 nav a {
-    
     color: #2e1d0b;
     text-decoration: none;
+    text-align: right;
 }
 nav a:hover {
     background-color: #0b1101;
@@ -22,34 +21,52 @@ nav a:hover {
 .about-me {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr 50px;
+    background-color: #2e1d0b;
 }
 .picture-me {
     background-color: #0b1101;
     margin-top: 50px;
     padding: 15px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px white;
     grid-column: 2/5;
-    width: 500px;   
+    width: 500px
+    
     
 }
 .msg {
     grid-column: 6/10;
     margin-top: 50px;
-    background-color: #a7b8c4;
+    background-color: #a77533;
+    box-shadow: 5px 5px 10px white;
     width: 500px
+}
+.msg h1 {
+    font-family: 'Bitter', serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    
+}
+.msg h2 {
+    font-family: 'Bitter', serif;
+    font-size: 4em;
+    line-height: 1.5em;
+    text-align: center;
+    
 }
 .msg p {
     font-family: 'Bitter', serif;
     font-size: 1.5em;
     line-height: 1.5em;
     padding-bottom: 15px;
+    text-align: center;
 }
 footer {
     background-color: #a7b8c4;
     font-family: 'Nunito', sans-serif;
     padding: 25px 50px;
-    margin-top: 200px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
