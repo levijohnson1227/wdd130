@@ -5,20 +5,18 @@ header {
     background-color:#a7b8c4;
     font-family: 'Nunito', sans-serif;
     padding: 5px 10px;
-    display: flex;
     font-size: 1.4em;
-    
-}
-.logo {
-    width: 80px;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+    display: grid;
+    grid-template-columns: 300px auto;
+
 }
 nav a {
     color: #2e1d0b;
-    text-decoration: none;
-    text-align: right;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    flex-direction: column;
+
 }
 nav a:hover {
     background-color: #0b1101;
@@ -28,10 +26,10 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 50px;
-    background-color: #0b1101;
+    background-color: #2e1d0b;
 }
 .picture-me {
-    background-color: #a77533;
+    background-color: #0b1101;
     margin-top: 50px;
     padding: 15px;
     box-shadow: 5px 5px 10px white;
@@ -43,8 +41,7 @@ nav a:hover {
 .msg {
     grid-column: 6/10;
     margin-top: 50px;
-    background-color: #2e1d0b;
-    color: #ffffff;
+    background-color: #a77533;
     box-shadow: 5px 5px 10px white;
     width: 500px
 }
@@ -73,7 +70,6 @@ footer {
     background-color: #a7b8c4;
     font-family: 'Nunito', sans-serif;
     padding: 25px 50px;
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
