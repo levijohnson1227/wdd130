@@ -19,6 +19,32 @@ nav a:hover {
     background-color: #0b1101;
     color: #ffffff;
 }
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+.picture-me {
+    background-color: #0b1101;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 2/5;
+    width: 500px;   
+    
+}
+.msg {
+    grid-column: 6/10;
+    margin-top: 50px;
+    background-color: #a7b8c4;
+    width: 500px
+}
+.msg p {
+    font-family: 'Bitter', serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
 footer {
     background-color: #a7b8c4;
     font-family: 'Nunito', sans-serif;
@@ -29,3 +55,4 @@ footer {
     align-items: center;
     font-size: 1.4em;
 }
+
