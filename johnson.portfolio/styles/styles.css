@@ -4,18 +4,26 @@
 header {
     background-color:#a7b8c4;
     font-family: 'Nunito', sans-serif;
-    padding: 5px 10px;
-    font-size: 1.4em;
+    font-size: 1.6em;
     display: grid;
     grid-template-columns: 300px auto;
+    grid-template-rows: 1fr;
+
+
+}
+nav {
+    display: block;
+    float: none;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 50px;
+    
 
 }
 nav a {
     color: #2e1d0b;
-    text-align: center;
-    display: block;
-    padding: 15px;
-    flex-direction: column;
+    margin-right: 75px;
 
 }
 nav a:hover {
@@ -76,3 +84,4 @@ footer {
     align-items: center;
     font-size: 1.4em;
 }
+
