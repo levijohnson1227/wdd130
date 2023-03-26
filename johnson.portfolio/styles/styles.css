@@ -192,8 +192,8 @@ footer {
     top: 115px;
     bottom: 0;
     left: 15px;
-    right: 0 px;
-    height: 62%;
+    right: 0;
+    height: 65%;
     width: 91%;
     opacity: 0;
     transition: .5s ease;
@@ -210,8 +210,6 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
   }
@@ -235,7 +233,7 @@ footer {
     bottom: 0;
     left: 15px;
     right: 0;
-    height: 62%;
+    height: 65%;
     width: 91%;
     opacity: 0;
     transition: .5s ease;
@@ -252,8 +250,6 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
   }
