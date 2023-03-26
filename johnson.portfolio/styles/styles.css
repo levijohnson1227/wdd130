@@ -124,3 +124,53 @@ footer {
     font-size: 1.4em;
 }
 
+/* -------------------------------- Page 2 --------------------------------------- */
+
+.professional {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px;
+    background-color: #0b1101;
+}
+.me {
+    grid-column: 3/8;
+    margin-top: 50px;
+    background-color: #2e1d0b;
+    color: #ffffff;
+    box-shadow: 5px 5px 10px white;
+    width: 500px
+}
+.me h2 {
+    font-family: 'Bitter', serif;
+    font-size: 2em;
+    line-height: 1.2em;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.me p {
+    font-family: 'Bitter', serif;
+    font-size: .9em;
+    line-height: 1.2em;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.boxing {
+    background-color: #2e1d0b;
+    margin-top: 100px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px white;
+    grid-column: 1/2;
+    width: 300px
+
+}
+.books {
+    background-color: #2e1d0b;
+    margin-top: 100px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px white;
+    grid-column: 9/11;
+    width: 300px
+    
+}
