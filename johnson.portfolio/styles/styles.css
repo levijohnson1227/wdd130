@@ -188,15 +188,15 @@ footer {
   
   .overlay_two, .overlay_three {
     position: absolute;
-    top: 65px;
+    top: 115px;
     bottom: 0;
     left: 15px;
     right: 0;
-    height: 50%;
-    width: 50%;
+    height: 47%;
+    width: 91%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #a77533;
+    background-color: #a7b8c4;
   }
   
   .container_two:hover .overlay_two {
