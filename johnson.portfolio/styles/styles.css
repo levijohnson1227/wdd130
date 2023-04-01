@@ -253,3 +253,53 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+/* -------------------------------- Page 3 --------------------------------------- */
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 50px;
+  background-color: #0b1101;
+}
+.me {
+  grid-column: 3/8;
+  margin-top: 50px;
+  background-color: #2e1d0b;
+  color: #ffffff;
+  box-shadow: 5px 5px 10px white;
+  width: 500px
+}
+.me h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.me p {
+  font-family: 'Bitter', serif;
+  font-size: .9em;
+  line-height: 1.2em;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.hardwork {
+  background-color: #2e1d0b;
+  margin-top: 100px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px white;
+  grid-column: 1/2;
+  width: 300px
+  
+
+}
+.equality {
+  background-color: #2e1d0b;
+  margin-top: 100px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px white;
+  grid-column: 9/12;
+  width: 300px
+  
+}
