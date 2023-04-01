@@ -127,146 +127,20 @@ footer {
 /* -------------------------------- Page 2 --------------------------------------- */
 
 .professional {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 50px;
-    background-color: #0b1101;
-}
-.me {
-    grid-column: 3/8;
-    margin-top: 50px;
-    background-color: #2e1d0b;
-    color: #ffffff;
-    box-shadow: 5px 5px 10px white;
-    width: 500px
-}
-.me h2 {
-    font-family: 'Nunito', sans-serif;
-    font-size: 2em;
-    line-height: 1.2em;
-    padding-bottom: 15px;
-    text-align: center;
-}
-
-.me p {
-    font-family: 'Bitter', serif;
-    font-size: .9em;
-    line-height: 1.2em;
-    padding-bottom: 15px;
-    text-align: center;
-}
-
-.boxing {
-    background-color: #2e1d0b;
-    margin-top: 100px;
-    padding: 15px;
-    box-shadow: 5px 5px 10px white;
-    grid-column: 1/2;
-    width: 300px
-    
-
-}
-.books {
-    background-color: #2e1d0b;
-    margin-top: 100px;
-    padding: 15px;
-    box-shadow: 5px 5px 10px white;
-    grid-column: 9/12;
-    width: 300px
-    
-}
-
-.container_three {
-  position: relative;
-  
-}
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay_three {
-    position: absolute;
-    top: 115px;
-    bottom: 0;
-    left: 15px;
-    right: 0;
-    height: 65%;
-    width: 91%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #a7b8c4;
-  }
-  
-  .container_three:hover .overlay_three {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-
-
-.container_two {
-    position: relative;
-    width: 100%;
-  }
-  
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay_two {
-    position: absolute;
-    top: 115px;
-    bottom: 0;
-    left: 15px;
-    right: 0;
-    height: 65%;
-    width: 91%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #a7b8c4;
-  }
-  
-  .container_two:hover .overlay_two {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-/* -------------------------------- Page 3 --------------------------------------- */
-.values {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 50px;
+  grid-template-rows: 1fr;
   background-color: #0b1101;
+  column-gap: 15px;
 }
 .me {
-  grid-column: 3/8;
-  margin-top: 50px;
+  grid-column: 2;
+  margin-top: 30px;
   background-color: #2e1d0b;
   color: #ffffff;
   box-shadow: 5px 5px 10px white;
-  width: 500px
+  width: 100%;
+  padding-bottom: 15px;
 }
 .me h2 {
   font-family: 'Nunito', sans-serif;
@@ -284,13 +158,143 @@ footer {
   text-align: center;
 }
 
-.hardwork {
+.boxing {
   background-color: #2e1d0b;
   margin-top: 100px;
   padding: 15px;
   box-shadow: 5px 5px 10px white;
-  grid-column: 1/2;
-  width: 300px
+  grid-column: 1;
+  width: 90%;
+  
+
+}
+.books {
+  background-color: #2e1d0b;
+  margin-top: 100px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px white;
+  grid-column: 3;
+  width: 90%
+  
+}
+
+.container_three {
+position: relative;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay_three {
+  position: absolute;
+  top: 115px;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 69%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a7b8c4;
+}
+
+.container_three:hover .overlay_three {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.container_two {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay_two {
+  position: absolute;
+  top: 115px;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 69%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #a7b8c4;
+}
+
+.container_two:hover .overlay_two {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* -------------------------------- Page 3 --------------------------------------- */
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #0b1101;
+  column-gap: 15px;
+}
+.me {
+  grid-column: 2;
+  margin-top: 30px;
+  background-color: #2e1d0b;
+  color: #ffffff;
+  box-shadow: 5px 5px 10px white;
+  width: 100%;
+  padding-bottom: 15px;
+}
+.me h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.me p {
+  font-family: 'Bitter', serif;
+  font-size: .9em;
+  line-height: 1.2em;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.hard_work {
+  background-color: #2e1d0b;
+  margin-top: 100px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px white;
+  grid-column: 1;
+  width: 90%;
   
 
 }
@@ -299,7 +303,7 @@ footer {
   margin-top: 100px;
   padding: 15px;
   box-shadow: 5px 5px 10px white;
-  grid-column: 9/12;
-  width: 300px
+  grid-column: 3;
+  width: 90%
   
 }
