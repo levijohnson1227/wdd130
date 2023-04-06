@@ -278,3 +278,98 @@ position: relative;
   width: 90%
   
 }
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .about-me {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .professional {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .values {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  nav {
+    display: block;
+    float: none;
+    width: auto;
+    margin-top: 40px;
+    margin-left: -175px;
+    padding: 50px;
+  }
+    
+
+
+  .logo {
+    width: 100px;
+  }
+  
+  .picture-me {
+    width: 300px;
+    display: block;
+    margin: 0;
+    display: grid;
+    grid-column: 1;
+    
+    
+  }
+  .boxing {
+    width: 100%fit-content;
+    display: block;
+    margin: 0;
+    display: grid;
+    grid-column: 1;
+    
+  }
+  .books {
+    width: 100%fit-content;
+    display: block;
+    margin: 0;
+    display: grid;
+    grid-column: 1;
+  
+    
+  }
+  .hard_work {
+    width: 150%;
+    display: block;
+    margin: 0;
+    display: grid;
+    grid-column: 1;
+    
+  }
+  .equality {
+    width: 100%fit-content;
+    display: block;
+    margin: 0;
+    display: grid;
+    grid-column: 1;
+    
+  }
+  .me {
+    width: 100%;
+    display: grid;
+    grid-columns: 1/2;
+    margin-top: 260px;
+  }
+  .msg {
+    width: 100%;
+    display: grid;
+    grid-column: 1;
+    
+    
+  }
+  
+  footer {
+    flex-direction: column;
+  }
+
+}
